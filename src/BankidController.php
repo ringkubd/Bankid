@@ -40,7 +40,7 @@ class BankidController extends Controller {
 	 * @param array $options SoapClient options
 	 * @param bool $enableSsl Enable SSL
 	 */
-	public function __construct($wsdlUrl, $options = [], $enableSsl = false) {
+	public function start($wsdlUrl, $options = [], $enableSsl = false) {
 		if (!$enableSsl) {
 			$context = stream_context_create([
 				'ssl' => [
