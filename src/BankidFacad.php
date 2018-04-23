@@ -1,6 +1,6 @@
 <?php
 
-namespace Anwar\Rfeedback\Facades;
+namespace Anwar\Bankid;
 
 /**
  * @Author: anwar
