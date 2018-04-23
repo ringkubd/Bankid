@@ -39,7 +39,7 @@ And if you want to use Facade
 ```
 
 ### Implementation
-```
+``` PHP
 <?php
 
 namespace App\Http\Controllers;
@@ -110,7 +110,7 @@ class GuzzleTest extends Controller {
 
 And create a view like
 
-```
+``` PHP
 <!doctype html>
 <html lang="{{ app()->getLocale() }}">
     <head>
