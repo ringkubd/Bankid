@@ -1,48 +1,48 @@
 {
-    "name": "anwar/bankid",
-    "description": "BankID authentication and filesinging for laravel implementation from dimafi/\u001b[D6/bank-id",
-    "license": "MIT",
-    "homepage": "https://github.com/dimafe6/bank-id",
-    "homepage": "https://github.com/ringkubd/bankid",
-    "authors": [
-        {
-            "name": "MD ANWAR JAHID",
-            "email": "ajr.jahid@gmail.com"
-        },
-		{
-            "name": "Dmitry Feshchenko",
-            "email": "dimafe2000@gmail.com"
-        },
-        {
-            "name": "Oleg Davudyuk",
-            "email": "ilveann@gmail.com"
-        },
-        {
-            "name": "Anders Fajerson",
-            "email": "anders@perifer.se"
-        },
-        {
-            "name": "Puggan",
-            "email": "puggan@spiro.se"
-        }
-    ],
-	"autoload": {
-		"psr-4": {
-		  "Anwar\\": "src/"
-		}
-	},
-    "require": {
-		"php" : ">=5.6.0",
-        "ext-soap":"*"
-	},
-	"extra": {
+  "name": "anwar/bankid",
+  "description": "BankID authentication and filesinging for laravel implementation from dimafi/\u001b[D6/bank-id",
+  "license": "MIT",
+  "homepage": "https://github.com/dimafe6/bank-id",
+  "homepage": "https://github.com/ringkubd/bankid",
+  "authors": [
+    {
+      "name": "MD ANWAR JAHID",
+      "email": "ajr.jahid@gmail.com"
+    },
+    {
+      "name": "Dmitry Feshchenko",
+      "email": "dimafe2000@gmail.com"
+    },
+    {
+      "name": "Oleg Davudyuk",
+      "email": "ilveann@gmail.com"
+    },
+    {
+      "name": "Anders Fajerson",
+      "email": "anders@perifer.se"
+    },
+    {
+      "name": "Puggan",
+      "email": "puggan@spiro.se"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Anwar\\Bankid\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=5.6.0",
+    "ext-soap": "*"
+  },
+  "extra": {
     "laravel": {
       "providers": [
         "Anwar\\Bankid\\BankidServiceProvider"
       ],
       "aliases": {
-            "BankID": "Anwar\\Bankid\\BankidFacad"
-        }
+        "BankID": "Anwar\\Bankid\\BankidFacad"
+      }
     }
   }
 }
